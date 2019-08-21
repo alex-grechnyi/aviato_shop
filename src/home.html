@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviato</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="#" rel="stylesheet">
 </head>
 <body>
-    <header class="header-section">
+    <header class="header">
         <div class="header__top">
-            <div class="header__contact">
-                <i class="fa fa-phone" aria-hidden="true">&nbsp;</i>
+            <div class="header__top-contact">
+                <svg class="phone__icon">
+                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                </svg>
                 <span>+880 1747 0280XX</span>
             </div>
             <h1 class="logo">Aviato</h1>
-            <div class="header__cart">
-                <a href="#" class="fa fa-shopping-cart">&nbsp;</a>
+            <div class="header__top-cart">
+                <a href="#">
+                    <svg class="cart__icon">
+                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                    </svg>
+                </a>
             </div>
         </div>
         <nav class="navigation">
@@ -29,7 +34,7 @@
                 <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
             </ul>
         </nav>
-        <div class="slider">
+        <div class="header__bottom">
             <div class="slide__item--1">
                 <h1 class="heading-primary">Minimal summer collection</h1>
                 <a href="#" class="btn"><span class="btn-text">Shop now</span></a>
@@ -37,10 +42,10 @@
         </div>
     </header>
     <main class="main">
-        <section class="feature-products-section">
+        <section class="feature-products">
             <h2 class="heading-secondary">Feature products</h2>
-            <div class="feature-products">
-                <div class="feature-products-box--1">
+            <div class="feature-products__inner">
+                <div class="feature-products__inner-box--1">
                     <div class="feature-products__item--1">
                         <h3 class="title">Clothes sales</h3>
                         <p class="subtitle">Shop New Season Clothing</p>
@@ -149,10 +154,26 @@
     <footer class="footer-section">
         <div class="footer">
             <ul class="footer__list">
-                <li><a href="#" class="fa fa-facebook">&nbsp;</a></li>
-                <li><a href="#" class="fa fa-instagram">&nbsp;</a></li>
-                <li><a href="#" class="fa fa-twitter">&nbsp;</a></li>
-                <li><a href="#" class="fa fa-pinterest">&nbsp;</a></li>
+                <li><a href="#">
+                    <svg class="cart__icon">
+                        <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a></li>
+                <li><a href="#">
+                    <svg class="cart__icon">
+                        <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a></li>
+                <li><a href="#">
+                    <svg class="cart__icon">
+                        <use xlink:href="./img/sprite.svg#icon-twitter"></use>
+                    </svg>
+                </a></li>
+                <li><a href="#">
+                    <svg class="cart__icon">
+                        <use xlink:href="./img/sprite.svg#icon-pinterest"></use>
+                    </svg>
+                </a></li>
             </ul>
             <ul class="footer__menu">
                 <li><a href="#">Contact us</a></li>
