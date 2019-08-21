@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviato</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Poppins&display=swap" rel="stylesheet">
-    <link href="#" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Abhaya+Libre:500&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <div class="header__top">
-            <div class="header__top-contact">
-                <svg class="phone__icon">
-                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
-                </svg>
-                <span>+880 1747 0280XX</span>
-            </div>
-            <h1 class="logo">Aviato</h1>
-            <div class="header__top-cart">
-                <a href="#">
-                    <svg class="cart__icon">
-                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+        <div class="container u-border-bottom">
+            <div class="header__top">
+                <div class="header__top-item">
+                    <svg class="icon">
+                        <use xlink:href="./img/sprite.svg#icon-phone"></use>
                     </svg>
-                </a>
+                    <span>+880 1747 0280XX</span>
+                </div>
+                <h1 class="header__top-item">
+                    <span class="logo">Aviato</span>
+                </h1>
+                <div class="header__top-item">
+                    <a href="#">
+                        <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                        </svg>
+                    </a>
+                    <span class="login">Login</span>
+                </div>
             </div>
         </div>
         <nav class="navigation">
@@ -36,8 +41,12 @@
         </nav>
         <div class="header__bottom">
             <div class="slide__item--1">
-                <h1 class="heading-primary">Minimal summer collection</h1>
-                <a href="#" class="btn"><span class="btn-text">Shop now</span></a>
+                <div class="container">
+                    <div class="slide__item-content">
+                        <h1 class="heading-primary">Minimal summer collection</h1>
+                        <a href="#" class="btn"><span class="btn-text">Shop now</span></a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
