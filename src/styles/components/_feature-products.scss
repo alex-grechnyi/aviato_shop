@@ -1,0 +1,49 @@
+.feature-products {
+
+  &__inner {
+    display: flex;
+
+    &-box {
+      max-height: 73rem;
+      overflow: hidden;
+
+      &:last-child {
+        margin-left: 3rem;
+      }
+    }
+  }
+}
+
+
+.category-item {
+  max-width: 55rem;
+  max-height: 35rem;
+  overflow: hidden;
+  position: relative;
+
+  &--3 {
+    max-height: 73rem;
+  }
+
+  &--1 {
+    margin-bottom: 3rem;
+  }
+
+  &__img {
+    display: block;
+    width: 105%;
+    backface-visibility: hidden;
+    transition: all .3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__data {
+    z-index: 1;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+  }
+}
