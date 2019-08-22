@@ -4,228 +4,454 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aviato</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Abhaya+Libre:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Abhaya+Libre:500&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
     <link href="css/main.css" rel="stylesheet">
 
 </head>
 <body>
-    <header class="header">
-        <div class="container u-border-bottom">
-            <div class="header__top">
-                <div class="header__top-item">
+<header class="header">
+    <div class="container u-border-bottom">
+        <div class="header__top">
+            <div class="header__top-item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                </svg>
+                <span>+880 1747 0280XX</span>
+            </div>
+            <h1 class="header__top-item">
+                <span class="logo">Aviato</span>
+            </h1>
+            <div class="header__top-item">
+                <a href="#">
                     <svg class="icon">
-                        <use xlink:href="./img/sprite.svg#icon-phone"></use>
+                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
                     </svg>
-                    <span>+880 1747 0280XX</span>
-                </div>
-                <h1 class="header__top-item">
-                    <span class="logo">Aviato</span>
-                </h1>
-                <div class="header__top-item">
-                    <a href="#">
-                        <svg class="icon">
-                            <use xlink:href="./img/sprite.svg#icon-cart"></use>
-                        </svg>
-                    </a>
-                    <span class="login">Login</span>
-                </div>
+                </a>
+                <span class="login">Login</span>
             </div>
         </div>
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Shop</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Features</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header__bottom">
-            <div class="slide__item--1">
-                <div class="container">
-                    <div class="slide__item-content">
-                        <h1 class="heading-primary">Minimal summer collection</h1>
-                        <a href="#" class="btn"><span class="btn-text">Shop now</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="slide__item--2">
-                <div class="container">
-                    <div class="slide__item-content">
-                        <h1 class="heading-primary">Minimal summer collection</h1>
-                        <a href="#" class="btn"><span class="btn-text">Shop now</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <section class="feature-products u-margin-top-md">
-            <div class="container u-border-bottom">
-                <h2 class="heading-secondary u-text-align-center">Feature products</h2>
-                <div class="feature-products__inner u-margin-top-md u-margin-bot-s">
-                    <div class="feature-products__inner-box">
-                        <div class="category-item category-item--1">
-                            <a href="#">
-                                <img src="./img/category-1.jpg" alt="category img" class="category-item__img">
-                            </a>
-                            <div class="category-item__data">
-                                <h3 class="title">Clothes sales</h3>
-                                <p class="subtitle">Shop New Season Clothing</p>
-                            </div>
-                        </div>
-                        <div class="category-item category-item--2">
-                            <a href="#">
-                                <img src="./img/category-2.jpg" alt="category img" class="category-item__img">
-                            </a>
-                            <div class="category-item__data">
-                                <h3 class="title">Women dresses</h3>
-                                <p class="subtitle">Get Wide Range Selection</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="feature-products__inner-box">
-                        <div class="category-item category-item--3">
-                            <a href="#">
-                                <img src="./img/category-3.jpg" alt="category img" class="category-item__img">
-                            </a>
-                            <div class="category-item__data">
-                                <h3 class="title">Jewellery</h3>
-                                <p class="subtitle">Special Design Comes First</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="popular-products-section u-margin-top-big">
+    </div>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Shop</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Features</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header__bottom">
+        <div class="slide__item--1">
             <div class="container">
-                <h2 class="heading-secondary u-text-align-center">Popular products</h2>
-                <div class="popular-products">
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/men/shirt-1.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>Stylish shirt</h4>
-                            <p>39.99&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/women/dress-1.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>New collection - Fall winter</h4>
-                            <p>44.99&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/men/t-shirt-1.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>Long sleeved t-shirt</h4>
-                            <p>29.99&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/women/dress-2.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>New collection - Fall winter</h4>
-                            <p>49.99&euro;</p>
+                <div class="slide__item-content">
+                    <h1 class="heading-primary">Minimal summer collection</h1>
+                    <a href="#" class="btn"><span class="btn-text">Shop now</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="slide__item--2">
+            <div class="container">
+                <div class="slide__item-content">
+                    <h1 class="heading-primary">Minimal summer collection</h1>
+                    <a href="#" class="btn btn-md"><span class="btn-text">Shop now</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="feature-products u-margin-top-md">
+        <div class="container u-border-bottom">
+            <h2 class="heading-secondary u-text-align-center">Feature products</h2>
+            <div class="feature-products__inner u-margin-top-md u-margin-bot-s">
+                <div class="feature-products__inner-box">
+                    <div class="category-item category-item--1">
+                        <a href="#">
+                            <img src="./img/category-1.jpg" alt="category img" class="category-item__img">
+                        </a>
+                        <div class="category-item__data">
+                            <h3 class="title">Clothes sales</h3>
+                            <p class="subtitle">Shop New Season Clothing</p>
                         </div>
                     </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/women/high-heels-shoes.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>High heel shoes</h4>
-                            <p>72.99&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/men/t-shirt-2.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>T-shirt with print</h4>
-                            <p>19.99&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/women/jeans1.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>Baggy jeans with rips</h4>
-                            <p>43.00&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/women/jumpsuit-1.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>Patterned jumpsuit</h4>
-                            <p>31.99&euro;</p>
-                        </div>
-                    </div>
-                    <div class="popular-products__item">
-                        <div class="popular-products__image">
-                            <img src="./img/women/shorts-1.jpg" alt="product image">
-                        </div>
-                        <div class="popular-products__content">
-                            <h4>Denim shorts</h4>
-                            <p>44.95&euro;</p>
+                    <div class="category-item category-item--2">
+                        <a href="#">
+                            <img src="./img/category-2.jpg" alt="category img" class="category-item__img">
+                        </a>
+                        <div class="category-item__data">
+                            <h3 class="title">Women dresses</h3>
+                            <p class="subtitle">Get Wide Range Selection</p>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn"><span class="btn-text">View all products</span></a>
+                <div class="feature-products__inner-box">
+                    <div class="category-item category-item--3">
+                        <a href="#">
+                            <img src="./img/category-3.jpg" alt="category img" class="category-item__img">
+                        </a>
+                        <div class="category-item__data">
+                            <h3 class="title">Jewellery</h3>
+                            <p class="subtitle">Special Design Comes First</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-    </main>
-    <footer class="footer-section">
-        <div class="footer">
-            <ul class="footer__list">
-                <li><a href="#">
-                    <svg class="cart__icon">
-                        <use xlink:href="./img/sprite.svg#icon-facebook"></use>
-                    </svg>
-                </a></li>
-                <li><a href="#">
-                    <svg class="cart__icon">
-                        <use xlink:href="./img/sprite.svg#icon-instagram"></use>
-                    </svg>
-                </a></li>
-                <li><a href="#">
-                    <svg class="cart__icon">
-                        <use xlink:href="./img/sprite.svg#icon-twitter"></use>
-                    </svg>
-                </a></li>
-                <li><a href="#">
-                    <svg class="cart__icon">
-                        <use xlink:href="./img/sprite.svg#icon-pinterest"></use>
-                    </svg>
-                </a></li>
-            </ul>
-            <ul class="footer__menu">
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Shipping</a></li>
-                <li><a href="#">Terms of service</a></li>
-                <li><a href="#">Privacy policy</a></li>
-            </ul>
-            <div class="copy">&copy; Sashka & Pashka 2019</div>
         </div>
-    </footer>
+    </section>
+    <section class="popular-products u-margin-top-big">
+        <div class="container u-text-align-center u-margin-bot-md">
+            <h2 class="heading-secondary u-margin-bot-s">Popular products</h2>
+            <div class="popular-products__inner">
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/boots-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">High heel boots</h4>
+                        <p class="product-price">39.99&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/shirt-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">Crisscrossed blouse with lapels</h4>
+                        <p class="product-price">21.99&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/jacket-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">Slim-fit blazer</h4>
+                        <p class="product-price">67.99&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/t-shirt-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">T-shirt with Glamorama print</h4>
+                        <p class="product-price">17.99&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/dress-2.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">Printed sheath dress with 3/4 sleeves</h4>
+                        <p class="product-price">30.30&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/dress-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">Ultralight mid-length dress with tropical print</h4>
+                        <p class="product-price">24.99&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/jeans-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">Jeans with raw hem and striped belt</h4>
+                        <p class="product-price">43.00&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/jumpsuit-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">Jumpsuit</h4>
+                        <p class="product-price">31.50&euro;</p>
+                    </div>
+                </div>
+                <div class="popular-products__item">
+                    <div class="popular-products__info">
+                        <div class="popular-products__image">
+                            <img src="./img/products/trouses-1.jpg" alt="product image">
+                        </div>
+                        <ul class="preview-list">
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-search"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-heart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="preview-list__item">
+                                <a href="#">
+                                    <svg class="icon__md">
+                                        <use xlink:href="./img/sprite.svg#icon-cart"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-products__content">
+                        <h4 class="product-title">High-waisted slim-fit trousers</h4>
+                        <p class="product-price">64.95&euro;</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn btn-sm u-margin-top-md"><span class="btn-text">View all products</span></a>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__inner">
+        <ul class="footer__list">
+            <li><a href="#">
+                <svg class="cart__icon">
+                    <use xlink:href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a></li>
+            <li><a href="#">
+                <svg class="cart__icon">
+                    <use xlink:href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+            </a></li>
+            <li><a href="#">
+                <svg class="cart__icon">
+                    <use xlink:href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+            </a></li>
+            <li><a href="#">
+                <svg class="cart__icon">
+                    <use xlink:href="./img/sprite.svg#icon-pinterest"></use>
+                </svg>
+            </a></li>
+        </ul>
+        <ul class="footer__menu">
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+        </ul>
+        <div class="copy">&copy; Sashka & Pashka 2019</div>
+    </div>
+</footer>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>

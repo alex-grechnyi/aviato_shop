@@ -29,7 +29,7 @@ body {
   &-secondary {
     @extend .heading;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
 }
 
@@ -42,4 +42,14 @@ body {
   color: $color-secondary;
   font-size: 1.4rem;
   margin-top: 1.5rem;
+}
+
+.product {
+  &-title {
+    @extend .subtitle;
+  }
+  &-price {
+    font-size: $default-font-size;
+    margin-top: 1rem;
+  }
 }
