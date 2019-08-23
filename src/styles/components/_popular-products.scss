@@ -39,7 +39,7 @@
       right: 0;
       left: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba($color-black, 0.6);
       transition: all .3s;
     }
   }
@@ -65,9 +65,9 @@
       fill: $color-white;
     }
     &:hover {
-      background-color: $color-black;
       border: 1px solid $color-white;
       outline: $color-black solid 5px;
+      transform: translateY(-3px);
     }
   }
 }

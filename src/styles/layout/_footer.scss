@@ -1,0 +1,39 @@
+.footer {
+  background-color: #F7F7F7;
+
+  &__inner {
+    padding: 5rem 0;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    &-item {
+      margin: 0 1.5rem;
+    }
+  }
+
+  &__menu {
+    @extend .footer__list;
+
+    &-item {
+      margin: 0 2rem;
+
+      a {
+        &:link,
+        &:visited {
+          font-size: 1.4rem;
+          color: $color-primary;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.copy {
+  text-align: center;
+}
