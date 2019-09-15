@@ -1,4 +1,4 @@
-$(".header__bottom").slick({
+$(".slider").slick({
     arrows: false,
     dots: true,
     autoplay: true,

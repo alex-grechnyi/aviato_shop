@@ -59,3 +59,7 @@ body {
     margin-top: 1rem;
   }
 }
+
+.description-subtitle {
+  @extend .login
+}
