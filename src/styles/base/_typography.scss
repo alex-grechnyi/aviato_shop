@@ -63,3 +63,26 @@ body {
 .description-subtitle {
   @extend .login
 }
+
+.size-title {
+  @extend .login
+}
+
+.text-default {
+  font-size: $default-font-size;
+
+  &--fw-600 {
+    font-weight: 600;
+  }
+  &--fw-700 {
+    font-weight: 700;
+  }
+}
+
+.tag-link {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color-primary;
+
+}

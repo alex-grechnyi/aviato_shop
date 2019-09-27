@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviato</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Abhaya+Libre:500&display=swap"
+          rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="container u-border-bottom">
+        <div class="header__top">
+            <div class="header__top-item">
+                <svg class="icon">
+                    <use href="./img/sprite.svg#icon-phone"></use>
+                </svg>
+                <span>+880 1747 0280XX</span>
+            </div>
+            <h1 class="header__top-item">
+                <span class="logo">Aviato</span>
+            </h1>
+            <div class="header__top-item">
+                <a href="#">
+                    <svg class="icon">
+                        <use href="./img/sprite.svg#icon-cart"></use>
+                    </svg>
+                </a>
+                <span class="login">Login</span>
+            </div>
+        </div>
+    </div>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a href="home.html" class="navigation__link">Home</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Shop</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Features</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="breadcrumbs u-text-align-center">
+        <div class="breadcrumbs-box">
+            <h2 class="heading-tertiary">Product details</h2>
+            <div class="breadcrumbs__inner u-margin-top-xs">
+                <a href="/home.html">Home</a>
+                <span>&nbsp; - &nbsp;</span>
+                <a href="/product-list.html">Product list</a>
+                <span>&nbsp; - &nbsp;</span>
+                <span>Product name</span>
+            </div>
+        </div>
+    </div>
+    <div class="container u-margin-bot-md">
+        <section class="product-details">
+            <div class="gallery">
+                <div class="gallery__inner">
+                    <img src="img/single-product-page/image-1.jpg" alt="product image"
+                         class="gallery__inner-image gallery__inner-image--active">
+                    <img src="img/single-product-page/image-2.jpg" alt="product image"
+                         class="gallery__inner-image">
+                    <img src="img/single-product-page/image-3.jpg" alt="product image"
+                         class="gallery__inner-image">
+                    <img src="img/single-product-page/image-4.jpg" alt="product image"
+                         class="gallery__inner-image">
+                </div>
+                <div class="gallery__preview u-margin-top-xs">
+                    <ul class="gallery__preview-list">
+                        <li class="gallery__preview-item">
+                            <img src="img/single-product-page/image-1.jpg" alt="product image"
+                                 class="gallery__preview-image gallery__preview-image--active">
+                        </li>
+                        <li class="gallery__preview-item">
+                            <img src="img/single-product-page/image-2.jpg" alt="product image"
+                                 class="gallery__preview-image">
+                        </li>
+                        <li class="gallery__preview-item">
+                            <img src="img/single-product-page/image-3.jpg" alt="product image"
+                                 class="gallery__preview-image">
+                        </li>
+                        <li class="gallery__preview-item">
+                            <img src="img/single-product-page/image-4.jpg" alt="product image"
+                                 class="gallery__preview-image">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-details__content">
+                <div class="product-details__content-block">
+                    <h3 class="product-details__title">Maxi dress with tassel belt</h3>
+                    <p class="product-details__price u-margin-top-xs">&euro;46.80</p>
+                    <p class="product-details__subtext u-margin-top-md u-margin-bot-xs">
+                        Long dress in airy patterned fabric with flared skirt, V
+                        crisscross neckline and thin straps. Thin belt at waistline with tassel detail. 100%
+                        Polyester</p>
+                </div>
+                <div class="product-details__content-block">
+                    <div class="color-box u-margin-top-s">
+                        <p class="description-subtitle u-margin-bot-xs">Color:</p>
+                        <ul class="color-list">
+                            <li class="color-list__item u-bg-color-blue">&nbsp;</li>
+                            <li class="color-list__item u-bg-color-green">&nbsp;</li>
+                            <li class="color-list__item u-bg-color-purple">&nbsp;</li>
+                            <li class="color-list__item u-bg-color-red">&nbsp;</li>
+                        </ul>
+                    </div>
+                    <div class="size-box u-margin-top-s">
+                        <p class="description-subtitle u-margin-bot-xs">Size Options:</p>
+                        <ul class="size-list">
+                            <li class="size-list__item size-title">S</li>
+                            <li class="size-list__item size-title">M</li>
+                            <li class="size-list__item size-title">L</li>
+                            <li class="size-list__item size-title">XL</li>
+                            <li class="size-list__item size-title">XXL</li>
+                        </ul>
+                    </div>
+                    <div class="quantity-box u-margin-top-md u-margin-bot-s">
+                        <div class="quantity-slider">
+                            <button class="symbol-button">&#150;</button>
+                            <input type="text" value="01" id="quantity" class="quantity-slider__inner text-default--fw-600 u-text-to-uppercase">
+                            <label for="quantity">&nbsp;</label>
+                            <button class="symbol-button">&#43;</button>
+                        </div>
+                        <div>
+                            <a href="product-list.html" class="btn btn-md">
+                                <span class="btn-text">Add to cart</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-details__content-block">
+                    <div class="product-details__content-block-top">
+                        <p class="description-subtitle">Description</p>
+                        <button class="symbol-button">&#150;</button>
+                    </div>
+                    <p class="product-details__subtext u-margin-top-xs">
+                        Long dress in airy patterned fabric with flared skirt, V
+                        crisscross neckline and thin straps. Thin belt at waistline with tassel detail. 100%
+                        Polyester</p>
+                </div>
+                <div class="product-details__content-block">
+                    <div class="product-details__content-block-top">
+                        <div>
+                            <span class="description-subtitle">Reviews</span>
+                            <span class="description-subtitle">(0)</span>
+                        </div>
+                        <button class="symbol-button">&#43;</button>
+                    </div>
+                </div>
+                <div class="product-details__content-block">
+                    <div class="u-margin-top-s u-margin-bot-s">
+                        <span class="description-subtitle">Need help?</span>
+                        <a href="#" class="tag-link">Contact us</a>
+                    </div>
+                    <div>
+                        <span class="description-subtitle">Categories:</span>
+                        <a href="#" class="tag-link">Men</a>
+                        <a href="#" class="tag-link">Women</a>
+                    </div>
+                    <div class="u-margin-top-s u-margin-bot-s">
+                        <span class="description-subtitle">Tags:</span>
+                        <a href="#" class="tag-link">t-shirt</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-products u-margin-top-big u-text-align-center u-margin-bot-md">
+                <h2 class="heading-secondary u-margin-bot-s">Related product</h2>
+                <div class="related-product__inner">
+                    <div class="related-product__item">
+                        <div class="related-product__info">
+                            <div class="related-product__image">
+                                <img src="./img/products/boots-1.jpg" alt="product image">
+                            </div>
+                            <ul class="preview-list">
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-search"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-heart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-cart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="related-product__content">
+                            <h4 class="product-title">High heel boots</h4>
+                            <p class="product-price">&euro;39.99</p>
+                        </div>
+                    </div>
+                    <div class="related-product__item">
+                        <div class="related-product__info">
+                            <div class="related-product__image">
+                                <img src="./img/products/shirt-1.jpg" alt="product image">
+                            </div>
+                            <ul class="preview-list">
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-search"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-heart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-cart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="related-product__content">
+                            <h4 class="product-title">Crisscrossed blouse with lapels</h4>
+                            <p class="product-price">&euro;21.99</p>
+                        </div>
+                    </div>
+                    <div class="related-product__item">
+                        <div class="related-product__info">
+                            <div class="related-product__image">
+                                <img src="./img/products/jacket-1.jpg" alt="product image">
+                            </div>
+                            <ul class="preview-list">
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-search"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-heart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-cart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="related-product__content">
+                            <h4 class="product-title">Slim-fit blazer</h4>
+                            <p class="product-price">&euro;67.99</p>
+                        </div>
+                    </div>
+                    <div class="related-product__item">
+                        <div class="related-product__info">
+                            <div class="related-product__image">
+                                <img src="./img/products/t-shirt-1.jpg" alt="product image">
+                            </div>
+                            <ul class="preview-list">
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-search"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-heart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="preview-list__item">
+                                    <a href="#">
+                                        <svg class="icon__md">
+                                            <use href="./img/sprite.svg#icon-cart"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="related-product__content">
+                            <h4 class="product-title">T-shirt with Glamorama print</h4>
+                            <p class="product-price">&euro;17.99</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer__inner">
+        <ul class="footer__list">
+            <li class="footer__list-item"><a href="#">
+                <svg class="icon__md icon__social icon-facebook">
+                    <use href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+            </a></li>
+            <li class="footer__list-item"><a href="#">
+                <svg class="icon__md icon__social icon-instagram">
+                    <use href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+            </a></li>
+            <li class="footer__list-item"><a href="#">
+                <svg class="icon__md icon__social icon-twitter">
+                    <use href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+            </a></li>
+            <li class="footer__list-item"><a href="#">
+                <svg class="icon__md icon__social icon-pinterest">
+                    <use href="./img/sprite.svg#icon-pinterest"></use>
+                </svg>
+            </a></li>
+        </ul>
+        <ul class="footer__menu u-margin-top-s u-margin-bot-s">
+            <li class="footer__menu-item"><a href="#">Contact us</a></li>
+            <li class="footer__menu-item"><a href="#">Shipping</a></li>
+            <li class="footer__menu-item"><a href="#">Terms of service</a></li>
+            <li class="footer__menu-item"><a href="#">Privacy policy</a></li>
+        </ul>
+        <div class="copy">&copy; Sashka & Pashka 2019</div>
+    </div>
+</footer>
+</body>
+</html>

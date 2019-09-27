@@ -38,3 +38,15 @@
   }
 }
 
+.symbol-button {
+  border: none;
+  background: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
