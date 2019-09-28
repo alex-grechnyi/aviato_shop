@@ -101,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section class="popular-products u-margin-top-big">
+    <section class="popular-products u-margin-top-big" id="popular-products">
         <div class="container u-text-align-center u-margin-bot-md">
             <h2 class="heading-secondary u-margin-bot-s">Popular products</h2>
             <div class="popular-products__inner">
@@ -112,7 +112,7 @@
                         </div>
                         <ul class="preview-list">
                             <li class="preview-list__item">
-                                <a href="#">
+                                <a href="#popup">
                                     <svg class="icon__md">
                                         <use href="./img/sprite.svg#icon-search"></use>
                                     </svg>
@@ -146,7 +146,7 @@
                         </div>
                         <ul class="preview-list">
                             <li class="preview-list__item">
-                                <a href="#">
+                                <a href="#popup">
                                     <svg class="icon__md">
                                         <use href="./img/sprite.svg#icon-search"></use>
                                     </svg>
@@ -180,7 +180,7 @@
                         </div>
                         <ul class="preview-list">
                             <li class="preview-list__item">
-                                <a href="#">
+                                <a href="#popup">
                                     <svg class="icon__md">
                                         <use href="./img/sprite.svg#icon-search"></use>
                                     </svg>
@@ -449,6 +449,28 @@
         <div class="copy">&copy; Sashka & Pashka 2019</div>
     </div>
 </footer>
+<div class="popup" id="popup">
+    <div class="popup__content">
+        <div class="popup__left">
+            <img src="./img/products/dress-1.jpg" alt="Product photo" class="popup__img">
+        </div>
+        <div class="popup__right">
+            <a href="#popular-products" class="popup__close">&times;</a>
+            <h3 class="product-details__title">Maxi dress with tassel belt</h3>
+            <p class="product-details__price u-margin-top-xs">&euro;46.80</p>
+            <p class="product-details__subtext u-margin-top-s u-margin-bot-xs">
+                Long dress in airy patterned fabric with flared skirt, V
+                crisscross neckline and thin straps. Thin belt at waistline with tassel detail. 100%
+                Polyester</p>
+            <div class="u-margin-top-s u-margin-bot-s">
+                <a href="product-list.html" class="btn btn-md">
+                    <span class="btn-text">Add to cart</span>
+                </a>
+            </div>
+            <a href="product-details.html" class="tag-link">View product details</a>
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
